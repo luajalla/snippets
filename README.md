@@ -11,4 +11,10 @@ There are several maze creation [algorithms](http://www.astrolog.org/labyrnth/al
 [Petrovich](http://www.dangermouse.net/esoteric/petrovich.html) is more than just a programming language, it is a complete computer operating system and program development environment named after Ivan Petrovich Pavlov. Design Principles: 
 
 * Provide an operating system and computer language that can learn and improve its performance in a natural manner.
-* Adapt to user feedback in an intelligent manner.
+* Adapt to user feedback in an intelligent manner.  
+
+#### Get Reflected Definitions
+The snippet shows how you can get the reflected definition from a closure object with [Mono.Reflection](https://github.com/jbevain/mono.reflection/)   
+
+#### Transform Expressions into Excel formulae
+Sometimes it is extremely useful to check some calculations with Excel. The snippet shows how F# expressions can be transformed into Excel formulae. The data is exported together with the formulae, e.g. a, b and sum function as input sets A1's value to a, B1's to b and C1's formula to "=$A$1+$B$1". [view on fssnip.net](http://fssnip.net/9T)
